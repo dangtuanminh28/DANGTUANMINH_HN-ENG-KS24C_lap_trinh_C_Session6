@@ -1,10 +1,10 @@
 #include<stdio.h>
 int main(){
 // khai bao bien
-   float a, b, asdasdasda đây sửa ở đây....
+   float a, b, c; 
    int sum;
 // nhap gia tri tu nguoi dung
-   printf("nhap gia tri a, b, c: ");
+   printf("nhap gia tri a, b, c: \n");
    scanf("%f %f %f", &a, &b, &c);
 // cong thuc tinh phuong trinh bac 2
    if (a == 0) {
@@ -13,13 +13,12 @@ int main(){
         } else {
             printf("Phuong trinh co mot nghiem: x = %f", (-c / b));
         }
-        return;
     }
-    // tinh delta
+// tinh delta
     float delta = b*b - 4*a*c;
     float x1;
     float x2;
-    // tinh nghiem
+// tinh nghiem
     if (delta > 0) {
         x1 = (float) ((-b + sqrt(delta)) / (2*a));
         x2 = (float) ((-b - sqrt(delta)) / (2*a));
@@ -30,15 +29,5 @@ int main(){
     } else {
         printf("Phuong trinh vo nghiem!");
     }
-}
-int main() {
-    float a, b, c;
-    printf("Nhap he so bac 2, a = ");
-    scanf("%f", &a);
-    printf("Nhap he so bac 1, b = ");
-    scanf("%f", &b);
-    printf("Nhap so hang tu do, c = ");
-    scanf("%f", &c);
-    giaiPTBac2(a, b, c);
     return 0;
 }
