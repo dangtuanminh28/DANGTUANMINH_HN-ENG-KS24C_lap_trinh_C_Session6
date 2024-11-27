@@ -14,11 +14,11 @@ int main(){
             printf("Phuong trinh co mot nghiem: x = %f", (-c / b));
         }
     }
-// tinh delta
+    // tinh delta
     float delta = b*b - 4*a*c;
     float x1;
     float x2;
-// tinh nghiem
+    // tinh nghiem
     if (delta > 0) {
         x1 = (float) ((-b + sqrt(delta)) / (2*a));
         x2 = (float) ((-b - sqrt(delta)) / (2*a));
