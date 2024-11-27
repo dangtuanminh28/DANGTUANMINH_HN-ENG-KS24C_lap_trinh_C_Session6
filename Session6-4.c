@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
 // khai bao bien
-   float a, b, c; 
+   float a, b, asdasdasda đây sửa ở đây....
    int sum;
 // nhap gia tri tu nguoi dung
    printf("nhap gia tri a, b, c: ");
